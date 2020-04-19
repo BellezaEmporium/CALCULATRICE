@@ -61,7 +61,7 @@ void erreur_popup(const char *nomErreur, const char *DialogueErr){
     
     pErreur = gtk_dialog_new(); //Crée le popup
     
-    //Bloquer le bouton pour qutiter le popup
+    //Action de fermeture de la fenêtre
     gtk_signal_connect(GTK_OBJECT(pErreur),
                        "destroy",
                        GTK_SIGNAL_FUNC(gtk_widget_destroyed), //MACRO equivalent à gtk_object_destroy()
