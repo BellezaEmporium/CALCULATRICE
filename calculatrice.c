@@ -59,6 +59,8 @@ void erreur_popup(const char *nomErreur, const char *DialogueErr){
     GtkWidget *pErreur;
     GtkWidget *pLabelErr;
     
+    /* -- Fenêtre popup -- */
+    
     pErreur = gtk_dialog_new(); //Crée le popup
     
     //Action de fermeture de la fenêtre
