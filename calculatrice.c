@@ -37,8 +37,7 @@ GtkWidget *creer_fenetre(const char *nom){
 }
 
 /*le pragma permet de rendre silencieux le warning "-Wunused-parameter" pour la procédure : void detruire_popup(GtkWidget *popup, gpointer donnees)
- *son utilisation est déconseillée
- *mais faire up popup.
+ *son utilisation est déconseillée, mais utile
  */
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wunused-parameter"
